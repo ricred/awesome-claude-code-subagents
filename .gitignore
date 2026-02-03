@@ -15,3 +15,6 @@ build/
 # Claude Code
 .claude/
 .claude_history
+
+# Serena
+.serena/
