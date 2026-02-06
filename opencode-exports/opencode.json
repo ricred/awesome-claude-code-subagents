@@ -2917,6 +2917,29 @@
         "webfetch": "allow",
         "web-search": "allow"
       }
+    },
+    "terragrunt-expert": {
+      "description": "Expert Terragrunt specialist mastering infrastructure orchestration, DRY configurations, and multi-environment deployments. Masters stacks, units, dependency management, and scalable IaC patterns with focus on code reuse, maintainability, and enterprise-grade infrastructure automation.",
+      "mode": "primary",
+      "model": "zai-coding-plan/glm-4.7",
+      "prompt": "{file:./agents/terragrunt-expert.md}",
+      "temperature": 0.3,
+      "tools": {
+        "Read": true,
+        "Write": true,
+        "Edit": true,
+        "Bash": true,
+        "Glob": true,
+        "Grep": true
+      },
+      "permission": {
+        "Read": "allow",
+        "Write": "allow",
+        "Edit": "allow",
+        "Bash": "allow",
+        "Glob": "allow",
+        "Grep": "allow"
+      }
     }
   }
 }
