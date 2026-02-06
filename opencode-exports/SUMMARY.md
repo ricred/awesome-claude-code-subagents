@@ -2,7 +2,7 @@
 
 ## Overview
 
-Successfully converted **128 Claude Code subagents** to **OpenCode format**.
+Successfully converted **129 Claude Code subagents** to **OpenCode format**.
 
 ## Conversion Details
 
@@ -10,15 +10,17 @@ Successfully converted **128 Claude Code subagents** to **OpenCode format**.
 
 All agents from the `categories/` directory were converted from Claude Code format to OpenCode format:
 
-- **Total Agents**: 128
-- **Success Rate**: 100% (128/128)
+- **Total Agents**: 129
+- **Success Rate**: 100% (129/129)
 - **Failed**: 0
+- **Initial Conversion**: 128 agents
+- **Added Later**: 1 agent (terragrunt-expert)
 
 ### Output Structure
 
 ```
 opencode-exports/
-├── agents/                 # 128 converted agent files
+├── agents/                 # 129 converted agent files
 ├── opencode.json           # Configuration file with all agents
 ├── conversion-log.txt       # Detailed conversion log
 ├── README.md              # Installation instructions
